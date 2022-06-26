@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="index.css">
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+<style>
+body{
+margin:0;
+padding:0;
+}
+
+header{
+background-image:url("images/bannerone.jpg");
+width:100%;
+height:524px;
+}
+
+.slider {
+text-align:center;
+webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+margin-top:280px;
+  width: 79%;
+  height: 95px;
+  
+  position: relative;
+  margin: auto;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.slider .slide {
+  display: flex;
+  position: absolute;
+  margin-left: 0;
+}
+
+.slider .item {
+  margin-right: 22px;
+}
+
+.slider .item:last-child {
+  margin-right: 30px;
+}
+
+.ctrl {
+  text-align: center;
+}
+
+.ctrl-btn {
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+
+  position: absolute;
+  top: 50%;
+  margin-top: -30.5px;
+}
+
+.ctrl-btn.pro-next {
+  right: 0;
+  margin-right:-10px;
+}
+.item{
+width:60px;
+margin-left:65px;
+height:40px;
+border-radius:20px;
+}
+.item2{
+height:270px;
+width:170px;
+}
+.item3{
+background-color:lightgrey;
+height:24px;
+width:24px;
+border-radius:20px;
+}
+#words{
+color:#ffff;
+margin-left:40px;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<header>
+<div id="heads">
+	<div id="social">
+	<div id="social1">
+		<img src="images/profile.webp" width="15%" style="border-radius:50%" height="15%">&nbsp;&nbsp;&nbsp;
+		<img src="images/cart.png" width="15%" style="border-radius:50%" height="15%">
+		<img src="images/search.png" width="26%" height="26%">
+	</div>
+	</div>
+	<br>
+	</br>
+<div  id="nav">
+	<img src="images/logo.png" class="img" width="14%" height="8%">
+	<nav>
+		<ul>
+			<li><a href="#" class="decorate">CONTACT US</a></li>
+			<li><a href="#" class="decorate">ABOUT US</a></li>
+			<li><a href="#" class="decorate">BLOGS</a></li>
+			<li><a href="#" class="decorate">LOOKBOOK</a></li>
+			<li><a href="#" class="decorate">HOME</a></li>
+		</ul>
+	</nav>
+</div>
+</div>
+<br>
+</br>
+<div id="bb">Renting is Stress Free<br>
+	<p style="font-size:10px">Unlimited Choices,Unbeatable Prices. Free Shipping"<br>Furniture renting like no other.</div>
+	</br><input type="button" href="#" value="Know More" id="btn1">
+	</p>
+	<br>
+	</br>
+<div class="slider" id="slider">
+  <div class="slide" id="slide">
+  <div id="item2"><a href="#"><img class="item" src="images/wirehouse.png"></a><p id="words">wirehouse</p>
+	</div>
+	<div id="item2"><a href="#"><img class="item" src="images/bed.png"></a><p id="words">bed</p>
+	</div>
+	<div id="item2">
+    <a href="#"><img class="item" src="images/chair.png"></a><p id="words">chair</p>
+	</div>
+    <div id="item2"><a href="#"><img class="item" src="images/sofa.png"></a><p id="words">sofa</p>
+	</div>
+    <div id="item2"><a href="#"><img class="item" src="images/bulb.png"></a><p id="words">bulb</p>
+	</div>
+    <div id="item2"><a href="#"><img class="item" src="images/children.png"></a><p id="words">child</p>
+	</div>
+  <a class="ctrl-btn pro-prev" href="#"><img class="item3" src="images/left.png"></a>
+  <a class="ctrl-btn pro-next" href="#"><img class="item3" src="images/right.png"></a>
+</div>
+</div>
+</header>
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+  <strong>Notice!&nbsp;</strong>Having problem to see at night,<strong>SWITCH</strong> to DARK Mode  &nbsp;
+  <button onclick="myFunction()">Toggle dark mode</button>
+</div>
+<h1 style="text-align:center;margin-top:2%;font-weight:bold">FEATURED PRODUCTS</h1>
+<div id="container">
+<div class="card">
+<div class="img1">
+<img class="#" src="images/prd1.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">MODERN WHITE CHAIR<br>
+INR $700</p>
+</div>
+<div class="card">
+<div class="img1">
+<img class="#" src="images/prd2.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">BROWN WOODEN TABLE<br>
+INR 1000</p>
+</div>
+<div class="card">
+<div class="img1">
+<img class="#" src="images/prd3.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">STYLISH BLACK CHAIR<br>
+INR $600</p>
+</div>
+<div class="card">
+<div class="img1">
+<img class="#" src="images/prd4.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">SEMI WHITE CHAIR<br>
+INR $500</p>
+</div>
+<br></br>
+<div class="card">
+<div class="img1">
+<img class="#" src="images/prd5.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">STEEL CHAIR<br>
+INR $700</p>
+</div>
+<div class="card">
+<div class="img1">
+<img class="#" src="images/prd6.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">BLACK WOODEN TABLE<br>
+INR $1700</p>
+</div>
+
+<div class="card">
+<div >
+<img class="#" src="images/prd7.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">GOLDEN STYLISH CHAIR<br>
+INR $800</p>
+</div>
+<div class="card">
+<div >
+<img class="#" src="images/prd8.jpg" width="100%" height="80%">
+</div>
+<p style="font-size:10px;text-align:center">MODERN WOODEN CHAIR<br>
+INR $900</p>
+</div>
+</div>
+<br>
+<div class="container1">
+	<div class="box"><img class="#" src="images/gallery-6.jpg" style="border-radius:20px" width="100%" height="100%"></div>
+	<div class="box"><div class="img2">
+<h1 style="margin-right:2px">Benefits Of Renting</h1><p style="font-size:10px;text-align:center;margin-top:60px;">Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit.
+ Cras vitae nibh nisl.<br> Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+</p>
+</div><img class="vv" src="images/gallery-5.jpg" style="border-top-left-radius:20px;border-bottom-left-radius:20px" width="45%" height="100%">
+</div>
+</div>
+
+<h1 style="text-align:center;margin-top:2%;font-weight:bold">POPULAR CATEGORIES</h1>
+<p style="margin-left:0;margin-top:2%;text-align:center">Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.
+ Cras vitae nibh nisl. Cras et mauris eget <br>lorem ultricies ferme ntum a in diam.</p>
+
+<div class="container2">
+	<div class="box1"><img class="#" src="images/gallery-1.jpg" width="100%" height="100%"><div id="bv"><img class="#" src="images/chair.png" width="35%" height="35%"><br><p style="color:#ffff">OFFICE</p></div></div>
+	<div class="box1"><img class="#" src="images/gallery-2.jpg" width="100%" height="100%"></div>
+	<div class="box1"><img class="#" src="images/gallery-3.jpg" width="100%" height="100%"></div>
+	<div class="box1"><img class="#" src="images/gallery-4.jpg" width="100%" height="100%"></div>
+	<div class="box2"><p style="font-size:55px;color:#ffff;margin-top:120px;margin-left:50px">+</p></div>
+</div>
+<h1 style="text-align:center;margin-top:2%;font-weight:bold">HOW IT WORKS</h1>
+<div id="container3">
+<section>
+	<aside>
+			<div class="circle"><p style="margin-top:5px;margin-left:11px">1</p></div><img style="float:right;margin-right:20px;margin-top:-20px" src="images/dotted.png" width="80%"  height="1%">
+			<br>
+			<div class="card4">
+			<h1 style="color:orange;text-align:center">LOREM IPSUM DOLOR SET AMET</h1>
+			<p style="text-align:center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+			 </div>
+			 <br>
+			 
+			 
+			 </br>
+			 <div class="circle"><p style="margin-top:5px;margin-left:11px">3</div><img style="float:right;margin-right:20px;margin-top:-20px" src="images/dotted.png" width="80%"  height="1%">
+			<br>
+			 <div class="card4">
+			<h1 style="color:#400080;text-align:center">LOREM IPSUM DOLOR SET AMET</h1>
+			<p style="text-align:center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras <br>et mauris eget lorem ultricies ferme ntum a in diam.</p>
+			</div>
+	</aside>
+	
+	<article>
+	<div id="small">
+	<div class="circle2">
+	<img class="circle3" src="images/doc1.png" >
+	</div>
+	<br>
+	
+	</br>
+	<div class="circle4">
+	<img class="circle5" src="images/hand.png" >
+	</div>
+	<br>
+	
+	</br>
+	<div class="circle6">
+	<img class="circle7" src="images/pay.png" >
+	</div>
+			 </div>
+	<div id="yo">
+			<div class="cir"><p style="margin-top:5px;margin-left:11px">2</p></div><img style="float:right;margin-right:35px;margin-top:-20px" src="images/dotted.png" width="70%"  height="1%">
+			<br>
+			<div class="card5">
+			<h1 style="color:#47476b;text-align:center">LOREM IPSUM DOLOR SET AMET</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+			 </div>
+			 </div>
+	</article>
+</section>
+</div>
+
+
+<div id="container4">
+<div id="content">
+	<h1>OUR STORY</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+			 <div id="btn4"
+			 <a href="#"><input type="button" id="btn4" value="Read Full Story"></a>
+			 </div>
+</div>
+</div>
+<div id="container5">
+<div class="card6">
+<div id="imgg" >
+<img class="#" src="images/shipping.png" width="23%" height="24%"><p style="float:right;margin-right:60px">SHOP ONLINE</p>
+</div>
+<p style="font-size:20px;text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.<br>
+</div>
+<div class="card6">
+<div ID="imgg">
+<img class="#" src="images/money.png" width="23%" height="24%"><p style="float:right;margin-right:50px">FREE SHIPPING</p>
+</div>
+<p style="font-size:20px;text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+</div>
+<div class="card6">
+<div ID="imgg">
+<img class="#" src="images/boat.png" width="23%" height="24%"><p style="float:right;margin-right:50px">RETURN POLICY</p>
+</div>
+<p style="font-size:20px;text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+</div>
+<div class="card6">
+<div ID="imgg">
+<img class="#" style="border-radius:50%" src="images/time.png" width="23%" height="24%"><p style="float:right;margin-right:50px">PAYMENT METHODS</p>
+</div>
+<p style="font-size:20px;text-align:left">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+			 Cras vitae nibh nisl. Cras et mauris eget lorem ultricies ferme ntum a in diam.</p>
+</div>
+</div>
+<br>
+
+</br>
+<div id="container6">
+	<div id="cards">
+		<h1 style="font-size:40px;text-shadow:2px 0 grey;text-align:center">BLOGS</h1>
+		<p style="text-align:center">Latest news from the blog </p>
+		<div class="card8">
+			<div class="template-header" style="padding: 10px 0px;background-color:lightgreen;border-bottom: 3px solid rgb(222, 222, 222)">
+                        
+						<span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                         <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+                    
+						<img src="images/bedroom.jpg" class="qq">
+						<p style="text-align:center">What does your favourite drawing<br> room Say about you?</p></div>
+			</div>
+						<div class="card8">
+
+		<div class="template-header" style="padding: 10px 0px;background-color: red;border-bottom: 3px solid rgb(222, 222, 222)">
+							
+								 <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+								 <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+								 <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+							
+							<img src="images/bedroom3.jpg" class="qq">
+							<p style="text-align:center">What does your favourite drawing<br> room Say about you?</p></div>
+						</div>
+						
+						<div class="card8">
+		<div class="template-header" style="padding: 10px 0px;background-color: violet;border-bottom: 3px solid rgb(222, 222, 222)">
+						
+								 <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:10px;"></span>
+								 <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+								 <span style="height: 5px;width: 5px;background-color: #929292;display: block;border-radius: 15px;float:left;margin-left:3px;"></span>
+						
+							<img src="images/bedroom1.jpg" class="qq">
+							<p style="text-align:center">What does your favourite bed<br> room Say about you?</p></div>
+						</div>
+						<input type="button" href="#" value="View All Posts" id="btn5">
+	</div>		
+</div>
+<br>
+<footer>
+<div id="foot">
+		<div class="card9">
+		<div class="img1">
+			<img style="margin-top:20px" class="#" src="images/logo2.png" width="68%" height="68%">
+		</div>
+			<img class="#" style="float:left" src="images/cal.png" width="10%" height="10%"><p style="font-size:15px;text-align:left">&nbsp;&nbsp;&nbsp;+91 7003543238</p>
+			<img class="#" style="float:left" src="images/email.png" width="8%" height="8%"><p style="font-size:18px;text-align:left">debanjansarkar9981@gmail.com</p>
+			<img class="#" style="float:left" src="images/fb.png" width="20%" height="20%">
+			<img class="#" style="float:left" src="images/twitter.png" width="20%" height="20%">
+			<img class="#" style="float:left" src="images/insta.png" width="20%" height="20%">
+		<br>
+		</div>
+<div class="card9">
+<div class="img1">
+	<h2>INFORMATION</h2>
+	</div>
+	<p style="font-size:18px">About Us<br>Terms and Condition<br>Privacy Policy<br>Blogs</p>
+</div>
+	<div class="card9">
+		<div class="img1">
+		<h2>CUSTOMER SERVICE</h2>
+		</div>
+		<p style="font-size:18px">Contact Us<br>Return Policy<br>Refund Policy<br>FAQ</p>
+	</div>
+		<div class="card9">
+			<div class="img1">
+			<h2>MY ACCOUNT</h2>
+			</div>
+			<p style="font-size:18px">My Account<br>Order History<br>Wishlist<br>Track Order</p>
+		</div>
+
+<div id="social3">
+<pre>
+	&copy;2020,Furniture Store.All Rights Reserved. Powered By<p style="color:orange;float:right;margin-top:-20px;margin-right:45%;font-size:20px;margin-left:10%;">DEBANJAN SARKAR</p>
+</pre>
+</div>
+</div>
+</footer>
+</body>
+<html>
